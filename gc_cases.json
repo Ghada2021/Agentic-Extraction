@@ -1,0 +1,117 @@
+[
+  {
+    "texte": "Génie Civil : 38 m",
+    "resultat": "38 m",
+    "raison": "longueur d'artère souterraine"
+  },
+  {
+    "texte": "Longueur de l'artère souterraine: 18 m",
+    "resultat": "18 m",
+    "raison": "longueur d'artère souterraine"
+  },
+  {
+    "texte": "Longueur de l'artère au sol ou en sous-sol: 2 Kms",
+    "resultat": "2000 m",
+    "raison": "2 km = 2000 m, longueur d'artère souterraine"
+  },
+  {
+    "texte": "1 par 200 m supplémentaire",
+    "resultat": "non trouvée",
+    "raison": "fréquence de contrôle de compactage, pas une longueur GC"
+  },
+  {
+    "texte": "canalisation 60mm pvc et 45mm pvc",
+    "resultat": "non trouvée",
+    "raison": "60mm et 45mm sont des DIAMÈTRES de canalisation, pas des longueurs"
+  },
+  {
+    "texte": "épaisseur existante majorée de 10%... contrôle de compactage... 200 m supplémentaire... nombre de points",
+    "resultat": "non trouvée",
+    "raison": "contexte de compactage et épaisseur de chaussée, pas de longueur GC"
+  },
+  {
+    "texte": "tranchée transversale sous chaussée de 40 ml et sous chaussée de 20 ml pour la pose d'une canalisation 60mm pvc",
+    "resultat": "40 ml",
+    "raison": "40 ml et 20 ml sont des longueurs de tranchée. 60mm est un diamètre à IGNORER. Prendre la plus grande valeur"
+  },
+  {
+    "texte": "2 fourreaux PEHD diamètre 42/45 sur une longueur de 1520 ml en tranchée sous accotement",
+    "resultat": "1520 ml",
+    "raison": "1520 ml est la longueur de la tranchée. 42/45 sont des diamètres à IGNORER"
+  },
+  {
+    "texte": "la distance ne soit pas inférieure à 0,60 m sous accotement et 0,80 m sous chaussée",
+    "resultat": "non trouvée",
+    "raison": "0,60 m et 0,80 m sont des PROFONDEURS d'enfouissement, pas des longueurs GC"
+  },
+  {
+    "texte": "sur la RD 055 du P.R. 7 + 162 au P.R. 7 + 182",
+    "resultat": "non trouvée",
+    "raison": "7+162 et 7+182 sont des chaînages PR, pas des longueurs GC"
+  },
+  {
+    "texte": "longueur totale des artères souterraines : 14,2546 km",
+    "resultat": "14254 m",
+    "raison": "14,2546 km converti en mètres = 14254,6 m"
+  },
+  {
+    "texte": "soit un total de 298 ml",
+    "resultat": "298 ml",
+    "raison": "total explicitement lié aux fourreaux/canalisations"
+  },
+  {
+    "texte": "linéaire de voie concernée : 500 m",
+    "resultat": "non trouvée",
+    "raison": "linéaire de VOIE, pas de génie civil"
+  },
+  {
+    "texte": "5 chambres L2T sous accotement",
+    "resultat": "non trouvée",
+    "raison": "les chambres sont des ouvrages ponctuels, pas une longueur de GC"
+  },
+  {
+    "texte": "création de GC : 350 ml",
+    "resultat": "350 ml",
+    "raison": "création de génie civil avec longueur explicite"
+  },
+  {
+    "texte": "réseau souterrain de 1072 mètres",
+    "resultat": "1072 m",
+    "raison": "longueur explicite de réseau souterrain"
+  },
+  {
+    "texte": "artères aériennes : 200 m",
+    "resultat": "non trouvée",
+    "raison": "artères AÉRIENNES, pas souterraines — à exclure"
+  },
+  {
+    "texte": "Linéaire m 100 500 ... Nombre de points 2 4 8",
+    "resultat": "non trouvée",
+    "raison": "tableau de contrôle de compactage avec fréquences, pas une longueur GC"
+  },
+  {
+    "texte": "longueur totale : 0 m",
+    "resultat": "non trouvée",
+    "raison": "valeur nulle, pas de GC"
+  },
+  {
+    "texte": "extension de 50 m supplémentaire",
+    "resultat": "non trouvée",
+    "raison": "valeur PARTIELLE (extension/ajout), pas la longueur totale"
+  },
+  {
+    "texte": "hauteur minimale de 3 m",
+    "resultat": "non trouvée",
+    "raison": "HAUTEUR, pas une longueur de GC"
+  },
+  {
+    "texte": "passage minimum de 1,40 m pour la circulation piétonne",
+    "resultat": "non trouvée",
+    "raison": "contrainte technique de passage piéton, pas une longueur GC"
+  },
+  {
+  "texte": "Ouvrages Quantité m²/U m² Chambres : L3T 1,36 1,36 Génie Civil Longueur (m) Alvéoles 38m 3",
+  "resultat": "38 m",
+  "raison": "Dans le tableau Génie Civil, 38 m est la valeur associée à la colonne Longueur (m). Le nombre 3 correspond aux alvéoles. Ne pas multiplier 38 par 3 et ne pas interpréter 38 m comme une longueur par alvéole ou par fourreau."
+  }
+]
